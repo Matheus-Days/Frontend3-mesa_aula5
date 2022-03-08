@@ -7,7 +7,7 @@ function App() {
     <div className="App">
       <h1>Veterinário</h1>
       <ul>
-        {puppyList.map(puppy => <PuppyListItem puppyData={puppy} />)}
+        {puppyList.map(puppy => <PuppyListItem key={puppy.id} puppyData={puppy} />)}
       </ul>
     </div>
   );

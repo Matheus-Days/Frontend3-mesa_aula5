@@ -1,0 +1,11 @@
+.nome {
+  font-size: 2rem;
+}
+
+.lista-caracteristicas {
+  list-style: square;
+}
+
+.lista-caracteristicas li {
+  font-size: 1.125rem;
+}
